@@ -10,8 +10,10 @@ https://aws.amazon.com/pt/console/
 
 Now click the login (or login again) button.
 Next time use your login email.
-Now enter your password.
-
+Now enter your password. 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver01.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 awsserver01.png
 awsserver02.png
 awsserver03.png
