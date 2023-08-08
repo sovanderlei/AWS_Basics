@@ -12,6 +12,7 @@ Now click the login (or login again) button.
 Next time use your login email.
 Now enter your password. 
 </br> 
+</br> 
  <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver01.png" style="width:800px;height:600px;" 
 alt="Minha Figura">
 </br> 
@@ -38,8 +39,15 @@ In the second option, choose
 
 EC2 (virtual cloud servers)
 
-awsserver05.png
-awsserver06.png
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver05.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver06.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
+ 
 
 # step 3
 
@@ -50,42 +58,67 @@ It will enable a second option of:
 
 run instance
 
-awsserver07.png
-awsserver08.png
-awsserver09.png
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver07.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver08.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver09.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
+ 
 
 # step 4
 
 By clicking on the button from the previous step, you will be forwarded to the page that allows the creation of a new instance. In this step you will be able to select all the options you want to configure your server on Amazon. A reminder, in the upper right corner you will probably see the name Virginia do Norte (or North Virginia), that means you are in the datacenter of Virginia do Norte. You can click there and switch to another region closer to you, envisioning a lower latency (ping), such as, for example, a datacenter in São Paulo.
 
-awsserver10.png
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver10.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br>  
 
 # step 5
 
 On the instance creation page, the first step is to select your server name. In our example, we chose the VPC name, but feel free to choose whatever name works best for you.
-
-awsserver11.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver11.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 6
 
 The next step is to select which operating system image you want installed on the server. In this example, we are going to select the Linux Operating System, on the Ubuntu distribution, which is eligible for the free tier.
 The ubuntu version chosen was the last one available on the creation date of this tutorial, which was: Ubuntu Server 22.04 LTS (HVM), SSD Volume Type, in the 64-bit version (x86).
-
-awsserver12.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver12.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 7
 
 The next step is to choose the instance type (processing capacity and ram), we choose the t2.micro version, also enabled for the free tier. This version has 1vCPU and 1GB of ram.
-
-awsserver13.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver13.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 8
 
 Now we need to define the key pair for remote connection to the server via SSH. Let's click on the option:
 
 Create new key pair
-
-awsserve14.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver14.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 9
 
@@ -102,8 +135,11 @@ Now to finish creating the keys, just click on the button:
 
 Create key pair
 The download should start and your keys should be saved to your computer's Downloads folder.
-
-awsserver15.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver15.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 10
 
@@ -117,20 +153,29 @@ In this step now we are going to configure the network settings. Let's leave the
 </ul> 
 </br>
 </br>
-
-awsserver16.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver16.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 11
 
 We now have the option to select server storage (disk space). By default, this option starts with 8GB, which is the minimum size of the selected Ubuntu image. At the time of writing this tutorial, Amazon allows you to use up to 30GB of storage for the free tier. In this tutorial, we are going to select only 10GB of gp2 type of Root Volume.
-
-awsserver17.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver17.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 12
 
 In this tutorial we are not going to select advanced options, or advanced details, we can skip directly to the last Summary step.
-
-awsserver18.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver18.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 13
 
@@ -144,22 +189,31 @@ You have mistakenly selected an option that is not in the free tier. This way yo
 After reviewing the items above, click the button:
 
 run instance
-
-awsserver19.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver19.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 14
 
 You will be taken to a page informing you that you have successfully created your instance. Click the button to continue:
 
 View all instances
-
-awsserver20.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver20.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 15
 
 In this step you will be on the instances overview page. In this case, we only have one instance created, named VPC. On this screen, it is important to write down your public IP, because with it we are going to make the connection via ssh to the server. Then select your instance, so that its data is visible.
-
-awsserver21.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver21.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 16
 
@@ -171,12 +225,23 @@ Now let's use the command below to connect to the server. In this example, we wi
 
 ssh -i KeyVPCaws.pem ubuntu@15.229.47.227
 If you have had any problems with insecure key permissions and you are using a mac os or linux operating system, just change the file permission (chmod 600 ChaveVPCaws.pem), if you are using windows, open the key file in notepad, copy the content. Create another file in notepad, paste the key content, and save this new file in the directory you intend to use the ssh connection.
-
-awsserver22.png
-awsserver23.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver22.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver23.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
 
 # step 17
 
 If you performed all the steps correctly, you are now connected to your server via an SSH connection.
-
-awsserver24.png
+ 
+</br>  
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver24.png" style="width:800px;height:600px;" 
+alt="Minha Figura">
+</br> 
+</br> 
+</br> 
