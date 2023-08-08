@@ -77,7 +77,7 @@ alt="Minha Figura">
 By clicking on the button from the previous step, you will be forwarded to the page that allows the creation of a new instance. In this step you will be able to select all the options you want to configure your server on Amazon. A reminder, in the upper right corner you will probably see the name Virginia do Norte (or North Virginia), that means you are in the datacenter of Virginia do Norte. You can click there and switch to another region closer to you, envisioning a lower latency (ping), such as, for example, a datacenter in São Paulo.
 
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver10.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver10.png" 
 alt="Minha Figura">
 </br>  
 
