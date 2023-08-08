@@ -7,7 +7,7 @@ Free level, we can get an EC2, VPC, type t2.micro server, with 1vCPU, 1GB of ram
 Access the login page:
 
 https://aws.amazon.com/pt/console/
-
+ 
 Now click the login (or login again) button.
 Next time use your login email.
 Now enter your password. 
