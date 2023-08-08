@@ -13,16 +13,16 @@ Next time use your login email.
 Now enter your password. 
 </br> 
 </br> 
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver01.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver01.png"   
 alt="Minha Figura">
 </br> 
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver02.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver02.png"   
 alt="Minha Figura">
 </br> 
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver03.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver03.png"   
 alt="Minha Figura">
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver04.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver04.png"   
 alt="Minha Figura">
 </br> 
  
@@ -40,11 +40,11 @@ In the second option, choose
 EC2 (virtual cloud servers)
 
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver05.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver05.png"   
 alt="Minha Figura">
 </br> 
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver06.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver06.png"   
 alt="Minha Figura">
 </br> 
  
@@ -59,15 +59,15 @@ It will enable a second option of:
 run instance
 
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver07.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver07.png"   
 alt="Minha Figura">
 </br> 
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver08.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver08.png"   
 alt="Minha Figura">
 </br> 
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver09.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver09.png"   
 alt="Minha Figura">
 </br> 
  
@@ -86,7 +86,7 @@ alt="Minha Figura">
 On the instance creation page, the first step is to select your server name. In our example, we chose the VPC name, but feel free to choose whatever name works best for you.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver11.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver11.png"   
 alt="Minha Figura">
 </br> 
 
@@ -96,7 +96,7 @@ The next step is to select which operating system image you want installed on th
 The ubuntu version chosen was the last one available on the creation date of this tutorial, which was: Ubuntu Server 22.04 LTS (HVM), SSD Volume Type, in the 64-bit version (x86).
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver12.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver12.png"   
 alt="Minha Figura">
 </br> 
 
@@ -105,7 +105,7 @@ alt="Minha Figura">
 The next step is to choose the instance type (processing capacity and ram), we choose the t2.micro version, also enabled for the free tier. This version has 1vCPU and 1GB of ram.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver13.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver13.png"   
 alt="Minha Figura">
 </br> 
 
@@ -116,7 +116,7 @@ Now we need to define the key pair for remote connection to the server via SSH. 
 Create new key pair
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver14.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver14.png"   
 alt="Minha Figura">
 </br> 
 
@@ -137,7 +137,7 @@ Create key pair
 The download should start and your keys should be saved to your computer's Downloads folder.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver15.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver15.png"   
 alt="Minha Figura">
 </br> 
 
@@ -155,7 +155,7 @@ In this step now we are going to configure the network settings. Let's leave the
 </br>
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver16.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver16.png"   
 alt="Minha Figura">
 </br> 
 
@@ -164,7 +164,7 @@ alt="Minha Figura">
 We now have the option to select server storage (disk space). By default, this option starts with 8GB, which is the minimum size of the selected Ubuntu image. At the time of writing this tutorial, Amazon allows you to use up to 30GB of storage for the free tier. In this tutorial, we are going to select only 10GB of gp2 type of Root Volume.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver17.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver17.png"   
 alt="Minha Figura">
 </br> 
 
@@ -173,7 +173,7 @@ alt="Minha Figura">
 In this tutorial we are not going to select advanced options, or advanced details, we can skip directly to the last Summary step.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver18.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver18.png"   
 alt="Minha Figura">
 </br> 
 
@@ -191,7 +191,7 @@ After reviewing the items above, click the button:
 run instance
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver19.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver19.png"   
 alt="Minha Figura">
 </br> 
 
@@ -202,7 +202,7 @@ You will be taken to a page informing you that you have successfully created you
 View all instances
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver20.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver20.png"   
 alt="Minha Figura">
 </br> 
 
@@ -211,7 +211,7 @@ alt="Minha Figura">
 In this step you will be on the instances overview page. In this case, we only have one instance created, named VPC. On this screen, it is important to write down your public IP, because with it we are going to make the connection via ssh to the server. Then select your instance, so that its data is visible.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver21.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver21.png"   
 alt="Minha Figura">
 </br> 
 
@@ -227,11 +227,11 @@ ssh -i KeyVPCaws.pem ubuntu@15.229.47.227
 If you have had any problems with insecure key permissions and you are using a mac os or linux operating system, just change the file permission (chmod 600 ChaveVPCaws.pem), if you are using windows, open the key file in notepad, copy the content. Create another file in notepad, paste the key content, and save this new file in the directory you intend to use the ssh connection.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver22.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver22.png"   
 alt="Minha Figura">
 </br> 
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver23.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver23.png"   
 alt="Minha Figura">
 </br> 
 
@@ -240,7 +240,7 @@ alt="Minha Figura">
 If you performed all the steps correctly, you are now connected to your server via an SSH connection.
  
 </br>  
- <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver24.png" style="width:800px;height:600px;" 
+ <img src="https://github.com/sovanderlei/AWS_Basics/blob/main/imagens/awsserver24.png"   
 alt="Minha Figura">
 </br> 
 </br> 
